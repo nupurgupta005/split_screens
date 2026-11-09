@@ -1,0 +1,511 @@
+---
+title: "The Effect of Social Media Background Visuals on STEM Learning"
+author: "Nupur Gupta, Michael Cicelski, Sean Tran, Isabella Barron, Evla Sim Saka, and Idan Asher Blank"
+date: "11/08/2026"
+output:
+  html_document:
+    css: styles.css
+---
+
+```{r load-packages, echo=FALSE}
+suppressPackageStartupMessages(suppressWarnings({
+  library(tidyverse)
+  library(emmeans)
+}))
+```
+
+```{r load-data, echo=FALSE}
+# Read the study data from the project folder so the file works on other computers.
+study_data <- read_csv("data/data.csv", show_col_types = FALSE)
+
+# Exclude participants who reported a diagnosed ADHD diagnosis.
+analysis_data <- study_data %>%
+  filter(`ADHD raw` != "Yes") %>%
+  mutate(
+    Condition = factor(
+      as.character(`Video Type`),
+      levels = c("1", "2", "3", "4"),
+      labels = c(
+        "Biology, traditional",
+        "Engineering, traditional",
+        "Biology, split-screen",
+        "Engineering, split-screen"
+      )
+    ),
+    VideoFormat = factor(
+      case_when(
+        as.character(`Video Type`) %in% c("1", "2") ~ "Traditional",
+        as.character(`Video Type`) %in% c("3", "4") ~ "Split-screen"
+      ),
+      levels = c("Traditional", "Split-screen")
+    ),
+    VideoTopic = factor(
+      case_when(
+        as.character(`Video Type`) %in% c("1", "3") ~ "Biology",
+        as.character(`Video Type`) %in% c("2", "4") ~ "Engineering"
+      ),
+      levels = c("Biology", "Engineering")
+    ),
+    MediaFamiliarity = as.integer(factor(
+      `Media Familiarity raw`,
+      levels = c("Never", "Not too often", "Somewhat often", "Often", "Always"),
+      ordered = TRUE
+    ))
+  )
+
+# Center the ordered 1–5 familiarity score so model main effects are evaluated
+# at the sample's average familiarity.
+analysis_data <- analysis_data %>%
+  mutate(MediaFamiliarity = MediaFamiliarity - mean(MediaFamiliarity, na.rm = TRUE))
+
+# Use sum contrasts for the two experimental factors.
+contrasts(analysis_data$VideoFormat) <- contr.sum(2)
+contrasts(analysis_data$VideoTopic) <- contr.sum(2)
+
+# Keep format colors consistent across figures.
+format_colors <- c("Traditional" = "#8ECAE6", "Split-screen" = "#F4A6C1")
+```
+
+## Descriptive statistics by video type
+
+The table summarizes `Score` after excluding participants who reported a diagnosed ADHD diagnosis. Confidence intervals are two-sided 95% *t* intervals for each condition mean.
+
+**Table 1**
+
+*Descriptive Statistics for Score by Video Type Condition*
+
+```{r descriptive-statistics, echo=FALSE, results='asis'}
+descriptive_stats <- analysis_data %>%
+  group_by(Condition) %>%
+  summarise(
+    N = sum(!is.na(Score)),
+    Mean = mean(Score, na.rm = TRUE),
+    SD = sd(Score, na.rm = TRUE),
+    CI_Lower = Mean - qt(0.975, df = N - 1) * SD / sqrt(N),
+    CI_Upper = Mean + qt(0.975, df = N - 1) * SD / sqrt(N),
+    .groups = "drop"
+  )
+
+knitr::kable(
+  descriptive_stats,
+  format = "html",
+  digits = 2,
+  align = c("l", "r", "r", "r", "r", "r"),
+  col.names = c("Video Type", "N", "Mean", "SD", "Lower CI", "Upper CI"),
+  table.attr = 'class="apa-table"',
+  caption = NULL
+)
+```
+
+## Linear model
+
+The model predicts `Score` from video format (traditional vs. split-screen), media familiarity with split-screen video, video topic (biology vs. engineering), and all two-way and three-way interactions. Familiarity is scored from 1 (*Never*) to 5 (*Always*) and treated as a linear predictor, as planned. It is mean-centered so the format and topic contrasts are evaluated at average familiarity.
+
+```{r linear-model, echo=FALSE}
+score_model <- lm(
+  Score ~ VideoFormat * MediaFamiliarity * VideoTopic,
+  data = analysis_data
+)
+
+model_coefficients <- as.data.frame(coef(summary(score_model)))
+model_coefficients$Term <- rownames(model_coefficients)
+model_ci <- confint(score_model)
+model_coefficients$`95% CI lower` <- model_ci[, 1]
+model_coefficients$`95% CI upper` <- model_ci[, 2]
+rownames(model_coefficients) <- NULL
+model_coefficients <- model_coefficients %>%
+  select(Term, Estimate, `Std. Error`, `t value`, `Pr(>|t|)`, `95% CI lower`, `95% CI upper`)
+
+knitr::kable(
+  model_coefficients,
+  format = "html",
+  digits = 3,
+  caption = "Linear model coefficients"
+)
+```
+
+### Model-predicted scores
+
+The lines show scores predicted by the fitted model across the five familiarity levels; shaded bands show 95% confidence intervals. Points are observed scores, lightly jittered to make overlapping responses visible.
+
+```{r model-visualization, echo=FALSE, fig.width=8, fig.height=5}
+familiarity_center <- mean(
+  as.integer(factor(
+    analysis_data$`Media Familiarity raw`,
+    levels = c("Never", "Not too often", "Somewhat often", "Often", "Always"),
+    ordered = TRUE
+  )),
+  na.rm = TRUE
+)
+
+prediction_grid <- tidyr::expand_grid(
+  MediaFamiliarity = 1:5 - familiarity_center,
+  VideoFormat = levels(analysis_data$VideoFormat),
+  VideoTopic = levels(analysis_data$VideoTopic)
+)
+prediction_grid$VideoFormat <- factor(
+  prediction_grid$VideoFormat,
+  levels = levels(analysis_data$VideoFormat)
+)
+prediction_grid$VideoTopic <- factor(
+  prediction_grid$VideoTopic,
+  levels = levels(analysis_data$VideoTopic)
+)
+prediction_grid <- bind_cols(
+  prediction_grid,
+  as.data.frame(predict(score_model, newdata = prediction_grid, interval = "confidence"))
+)
+
+ggplot() +
+  geom_point(
+    data = analysis_data,
+    aes(x = MediaFamiliarity + familiarity_center, y = Score, color = VideoFormat),
+    alpha = 0.3,
+    position = position_jitter(width = 0.08, height = 0, seed = 42)
+  ) +
+  geom_ribbon(
+    data = prediction_grid,
+    aes(x = MediaFamiliarity + familiarity_center, ymin = lwr, ymax = upr,
+        fill = VideoFormat, group = VideoFormat),
+    alpha = 0.18,
+    color = NA
+  ) +
+  geom_line(
+    data = prediction_grid,
+    aes(x = MediaFamiliarity + familiarity_center, y = fit,
+        color = VideoFormat, group = VideoFormat),
+    linewidth = 1
+  ) +
+  scale_color_manual(values = format_colors) +
+  scale_fill_manual(values = format_colors) +
+  facet_wrap(~ VideoTopic) +
+  scale_x_continuous(breaks = 1:5, limits = c(0.8, 5.2)) +
+  labs(
+    x = "Media familiarity with split-screen video",
+    y = "Score",
+    color = "Video format",
+    fill = "Video format"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom")
+```
+
+```{r model-effects, echo=FALSE}
+knitr::kable(
+  as.data.frame(joint_tests(score_model)),
+  format = "html",
+  digits = 3,
+  caption = "Joint tests of model effects"
+)
+```
+
+### Planned contrasts
+
+The planned comparisons test split-screen versus traditional video within each topic at average familiarity, biology versus engineering within each format at average familiarity, and the familiarity slope within each format-by-topic condition. Holm adjustment is applied within each planned contrast family. The familiarity slope treats the ordered response steps as equally spaced.
+
+```{r planned-contrasts-format, echo=FALSE, message=FALSE}
+format_emm <- emmeans(score_model, ~ VideoFormat | VideoTopic)
+format_contrasts <- contrast(
+  format_emm,
+  method = list("Split-screen - traditional" = c(-1, 1)),
+  adjust = "holm"
+)
+
+knitr::kable(
+  as.data.frame(summary(format_contrasts, infer = TRUE, by = NULL, adjust = "holm")),
+  format = "html",
+  digits = 3,
+  caption = "Planned format contrasts within topic and familiarity level"
+)
+```
+
+\
+There is a statistical difference between traditional and split-screen video formats on scores. This difference holds across both biology and engineering video topics.
+
+```{r planned-contrasts-topic, echo=FALSE, message=FALSE}
+topic_emm <- emmeans(score_model, ~ VideoTopic | VideoFormat)
+topic_contrasts <- contrast(
+  topic_emm,
+  method = list("Biology - engineering" = c(1, -1)),
+  adjust = "holm"
+)
+
+knitr::kable(
+  as.data.frame(summary(topic_contrasts, infer = TRUE, by = NULL, adjust = "holm")),
+  format = "html",
+  digits = 3,
+  caption = "Planned topic contrasts within format and familiarity level"
+)
+```
+
+\
+There is no statistical difference between biology and engineering topics. This difference holds across both traditional and split-screen video formats.
+
+```{r planned-contrasts-familiarity, echo=FALSE, message=FALSE}
+familiarity_trends <- emtrends(
+  score_model,
+  ~ VideoFormat * VideoTopic,
+  var = "MediaFamiliarity"
+)
+
+knitr::kable(
+  as.data.frame(summary(familiarity_trends, infer = TRUE, adjust = "holm")),
+  format = "html",
+  digits = 3,
+  caption = "Planned familiarity slopes within format and topic"
+)
+```
+
+```{r planned-contrasts-cross-condition, echo=FALSE, message=FALSE}
+condition_emm <- emmeans(
+  score_model,
+  ~ VideoFormat * VideoTopic,
+  at = list(MediaFamiliarity = 0)
+)
+cross_condition_contrasts <- contrast(
+  condition_emm,
+  method = list(
+    "Biology traditional - Engineering split-screen" = c(1, 0, 0, -1),
+    "Engineering traditional - Biology split-screen" = c(0, -1, 1, 0)
+  ),
+  adjust = "holm"
+)
+cross_condition_results <- as.data.frame(
+  summary(cross_condition_contrasts, infer = TRUE, adjust = "holm")
+)
+
+knitr::kable(
+  cross_condition_results,
+  format = "html",
+  digits = 3,
+  caption = "Planned cross-condition comparisons at average familiarity (Holm-adjusted)"
+)
+```
+
+## Interaction: Video type and media familiarity
+
+Points and connecting lines show quiz scores predicted by the linear model for each video type at mean media familiarity and one standard error below and above the mean. Vertical bars show 95% confidence intervals for the predicted means. Familiarity level is represented by color; the lines connect the same level across video types. Horizontal brackets with stars mark significant Holm-adjusted planned comparisons at mean familiarity, including format comparisons within topic and cross-condition comparisons (* p < .05, ** p < .01, *** p < .001).
+
+```{r video-type-familiarity-plot, echo=FALSE, message=FALSE, fig.width=9, fig.height=5.5}
+familiarity_se <- sd(analysis_data$MediaFamiliarity, na.rm = TRUE) /
+  sqrt(sum(!is.na(analysis_data$MediaFamiliarity)))
+familiarity_scenarios <- c(
+  "Mean - 1 SE" = -familiarity_se,
+  "Mean" = 0,
+  "Mean + 1 SE" = familiarity_se
+)
+familiarity_colors <- c(
+  "Mean - 1 SE" = "#8ECAE6",
+  "Mean" = "#7A5195",
+  "Mean + 1 SE" = "#F4A6C1"
+)
+
+interaction_grid <- tidyr::expand_grid(
+  Condition = levels(analysis_data$Condition),
+  FamiliarityLevel = names(familiarity_scenarios)
+) %>%
+  mutate(
+    VideoFormat = if_else(grepl("split-screen", Condition), "Split-screen", "Traditional"),
+    VideoTopic = if_else(grepl("Biology", Condition), "Biology", "Engineering"),
+    MediaFamiliarity = unname(familiarity_scenarios[FamiliarityLevel]),
+    VideoFormat = factor(VideoFormat, levels = levels(analysis_data$VideoFormat)),
+    VideoTopic = factor(VideoTopic, levels = levels(analysis_data$VideoTopic)),
+    Condition = factor(Condition, levels = levels(analysis_data$Condition)),
+    FamiliarityLevel = factor(FamiliarityLevel, levels = names(familiarity_scenarios))
+  )
+
+interaction_grid <- bind_cols(
+  interaction_grid,
+  as.data.frame(predict(score_model, newdata = interaction_grid, interval = "confidence"))
+)
+
+interaction_significance <- as.data.frame(
+  summary(format_contrasts, infer = TRUE, by = NULL, adjust = "holm")
+) %>%
+  mutate(
+    stars = case_when(
+      p.value < .001 ~ "***",
+      p.value < .01 ~ "**",
+      p.value < .05 ~ "*",
+      TRUE ~ ""
+    ),
+    x = if_else(VideoTopic == "Biology", 1, 2),
+    xend = if_else(VideoTopic == "Biology", 3, 4),
+    y = if_else(VideoTopic == "Biology", 7.75, 7.5)
+  ) %>%
+  filter(stars != "")
+
+cross_condition_plot <- cross_condition_results %>%
+  mutate(
+    stars = case_when(
+      p.value < .001 ~ "***",
+      p.value < .01 ~ "**",
+      p.value < .05 ~ "*",
+      TRUE ~ ""
+    ),
+    x = 2,
+    xend = 3,
+    y = 8.15
+  ) %>%
+  filter(stars != "")
+
+ggplot(
+  interaction_grid,
+  aes(x = as.numeric(Condition), y = fit, color = FamiliarityLevel, group = FamiliarityLevel)
+) +
+  geom_line(linewidth = 0.8, alpha = 0.8) +
+  geom_errorbar(aes(ymin = lwr, ymax = upr), width = 0.12, alpha = 0.7) +
+  geom_point(size = 2.8) +
+  geom_segment(
+    data = interaction_significance,
+    aes(x = x, xend = xend, y = y, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_segment(
+    data = interaction_significance,
+    aes(x = x, xend = x, y = y - 0.06, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_segment(
+    data = interaction_significance,
+    aes(x = xend, xend = xend, y = y - 0.06, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_text(
+    data = interaction_significance,
+    aes(x = (x + xend) / 2, y = y + 0.04, label = stars),
+    inherit.aes = FALSE,
+    size = 5
+  ) +
+  geom_segment(
+    data = cross_condition_plot,
+    aes(x = x, xend = xend, y = y, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_segment(
+    data = cross_condition_plot,
+    aes(x = x, xend = x, y = y - 0.08, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_segment(
+    data = cross_condition_plot,
+    aes(x = xend, xend = xend, y = y - 0.08, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_text(
+    data = cross_condition_plot,
+    aes(x = (x + xend) / 2, y = y + 0.06, label = stars),
+    inherit.aes = FALSE,
+    size = 5
+  ) +
+  scale_x_continuous(
+    breaks = seq_along(levels(analysis_data$Condition)),
+    labels = levels(analysis_data$Condition)
+  ) +
+  scale_color_manual(
+    name = "Familiarity scenario (color)",
+    values = familiarity_colors,
+    drop = FALSE
+  ) +
+  scale_y_continuous(limits = c(4.5, 8.5), breaks = seq(4.5, 8.5, by = 0.5), expand = expansion(mult = c(0, 0.01))) +
+  labs(
+    x = "Video type",
+    y = "Predicted quiz score"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    axis.text.x = element_text(angle = 15, hjust = 1),
+    panel.grid.major.x = element_blank()
+  )
+```
+
+## Mean scores by video type
+
+Bars show the mean score for each video format within topic. Points show individual scores, and error bars show ±1 standard error. Asterisks mark the Holm-adjusted planned split-screen versus traditional comparison from the linear model, evaluated at average familiarity (* p < .05, ** p < .01, *** p < .001).
+
+```{r mean-score-plot, echo=FALSE, message=FALSE, fig.width=8, fig.height=5}
+plot_summary <- analysis_data %>%
+  group_by(VideoTopic, VideoFormat) %>%
+  summarise(
+    N = sum(!is.na(Score)),
+    Mean = mean(Score, na.rm = TRUE),
+    SE = sd(Score, na.rm = TRUE) / sqrt(N),
+    .groups = "drop"
+  )
+
+format_test_plot <- as.data.frame(
+  summary(format_contrasts, infer = TRUE, by = NULL, adjust = "holm")
+) %>%
+  mutate(
+    stars = case_when(
+      p.value < .001 ~ "***",
+      p.value < .01 ~ "**",
+      p.value < .05 ~ "*",
+      TRUE ~ ""
+    ),
+    x = 1,
+    xend = 2,
+    y = max(analysis_data$Score, na.rm = TRUE) * 1.06
+  ) %>%
+  filter(stars != "")
+
+ggplot() +
+  geom_col(
+    data = plot_summary,
+    aes(x = VideoFormat, y = Mean, fill = VideoFormat),
+    width = 0.68,
+    color = "grey25"
+  ) +
+  geom_errorbar(
+    data = plot_summary,
+    aes(x = VideoFormat, ymin = Mean - SE, ymax = Mean + SE,
+        linetype = "±1 SE"),
+    width = 0.16,
+    linewidth = 0.7
+  ) +
+  geom_point(
+    data = analysis_data,
+    aes(x = VideoFormat, y = Score, shape = "Individual scores"),
+    position = position_jitter(width = 0.12, height = 0, seed = 42),
+    alpha = 0.55,
+    size = 1.8,
+    color = "grey15"
+  ) +
+  geom_segment(
+    data = format_test_plot,
+    aes(x = x, xend = xend, y = y, yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_segment(
+    data = format_test_plot,
+    aes(x = x, xend = x, y = y - 0.025 * diff(range(analysis_data$Score, na.rm = TRUE)), yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_segment(
+    data = format_test_plot,
+    aes(x = xend, xend = xend, y = y - 0.025 * diff(range(analysis_data$Score, na.rm = TRUE)), yend = y),
+    inherit.aes = FALSE
+  ) +
+  geom_text(
+    data = format_test_plot,
+    aes(x = 1.5, y = y + 0.025 * diff(range(analysis_data$Score, na.rm = TRUE)), label = stars),
+    inherit.aes = FALSE,
+    size = 5
+  ) +
+  facet_wrap(~ VideoTopic) +
+  scale_fill_manual(
+    name = "Video format",
+    values = format_colors
+  ) +
+  scale_shape_manual(name = "Points", values = c("Individual scores" = 16)) +
+  scale_linetype_manual(name = "Error bars", values = c("±1 SE" = "solid")) +
+  labs(x = NULL, y = "Mean score") +
+  guides(
+    fill = guide_legend(order = 1),
+    shape = guide_legend(order = 2),
+    linetype = guide_legend(order = 3)
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(legend.position = "bottom", panel.grid.major.x = element_blank())
+```

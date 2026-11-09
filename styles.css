@@ -1,0 +1,37 @@
+table.apa-table {
+  border-collapse: collapse;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-left: 0;
+  border-right: 0;
+  margin: 1em 0;
+  width: 100%;
+  table-layout: auto;
+  font-size: 1.05em;
+}
+
+table.apa-table th,
+table.apa-table td {
+  border: 0;
+  padding: 0.8em 1.15em;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+table.apa-table thead {
+  border-bottom: 1px solid #000;
+}
+
+table.apa-table th {
+  text-align: left;
+}
+
+table.apa-table th:first-child,
+table.apa-table td:first-child {
+  min-width: 15em;
+}
+
+table.apa-table th:not(:first-child),
+table.apa-table td:not(:first-child) {
+  text-align: right;
+}

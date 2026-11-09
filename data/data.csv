@@ -1,0 +1,387 @@
+"Major raw","Major cleaning","Major nominal","Major","Media Familiarity raw","Media Familiarity","RawScore","Score","Video Type","ADHD raw","ADHD","Learning Ability self-report raw","Learning Ability (self-report)","Answer Confidence self-report raw","Answer Confidence (self-report)","Distraction Level self-report raw","Distraction Level (self-report)","Ease in Learning self-report raw","Ease in Learning (self-report)","Gender raw","Gender","Race raw","Race"
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"3","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Biology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"2","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"economics","humanities","Humanities",3,"Never",1,8.0,7.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Never",1,1.0,0.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"psychology","ls","Life Sciences",1,"Never",1,5.0,4.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"psychology","ls","Life Sciences",1,"Often",4,6.0,5.0,"2","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Vocal Performance","humanities","Humanities",3,"Not too often",2,7.0,6.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Undeclared Social Science","humanities","Humanities",3,"Not too often",2,6.0,5.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Black or African American",3
+"psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Never",1,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"cognitive science","ls","Life Sciences",1,"Often",4,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychology ","ls","Life Sciences",1,"Not too often",2,2.0,1.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it much harder",1,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Never",1,9.0,8.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"3","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Middle Eastern or North African",5
+"psychology","ls","Life Sciences",1,"Often",4,5.0,4.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"psychology","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"2","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"cognitive science","ls","Life Sciences",1,"Often",4,11.0,10.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"psychobiology","ls","Life Sciences",1,"Often",4,11.0,10.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Communications","humanities","Humanities",3,"Somewhat often",3,4.0,3.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Physiological Science","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"2","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Often",4,5.0,4.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"Linguistics","humanities","Humanities",3,"Often",4,6.0,5.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Somewhat often",3,5.0,4.0,"3","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Middle Eastern or North African",5
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"4","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Middle Eastern or North African",5
+"Linguistics and Psychology","ls","Life Sciences",1,"Never",1,4.0,3.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"physiological science","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Often",4,2.0,1.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Often",4,10.0,9.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Linguistics and Psychology","ls","Life Sciences",1,"Never",1,2.0,1.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Biology ","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Philosophy and Cognitive Science","humanities","Humanities",3,"Not too often",2,10.0,9.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"N/A",3,"N/A",
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"1","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,8.0,7.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Very distracting",5,"Made no difference",3,"Woman",1,"Asian",2
+"Physiological Sciences ","ls","Life Sciences",1,"Often",4,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"cognitive science","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"4","Yes",2,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psycology ","ls","Life Sciences",1,"Often",4,4.0,3.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"White",7
+"psychology","ls","Life Sciences",1,"Often",4,5.0,4.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Never",1,4.0,3.0,"3","No",1,"Very poorly",1,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Microbiology, Immunology, and Molecular Genetics","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Linguistics","humanities","Humanities",3,"Not too often",2,10.0,9.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"Psychobiology ","ls","Life Sciences",1,"Never",1,9.0,8.0,"3","No",1,"Neutral",3,"Somewhat confident",4,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychobiology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"4","No",1,"Neutral",3,"Neutral",3,"Very distracting",5,"Made it much harder",1,"Woman",1,"White",7
+"Business Economics","humanities","Humanities",3,"Often",4,9.0,8.0,"1","No",1,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made it much easier",5,"Woman",1,"Hispanic or Latino",4
+"psychobio","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"cognitive science","ls","Life Sciences",1,"Often",4,8.0,7.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Asian",2
+"Applied Math","physical/cs","Engineering/Physical Sciences",2,"Often",4,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it much easier",5,"Man",2,"Asian",2
+"psych","ls","Life Sciences",1,"Never",1,10.0,9.0,"3","No",1,"Somewhat poorly",2,"Very confident",5,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Psychology ","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Business Economics","humanities","Humanities",3,"Often",4,8.0,7.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"White",7
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Sociology and Communications","humanities","Humanities",3,"Never",1,3.0,2.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"White",7
+"Sociology and Communications","humanities","Humanities",3,"Never",1,6.0,5.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Often",4,4.0,3.0,"2","No",1,"Neutral",3,"Somewhat confident",4,"Very distracting",5,"Made it much harder",1,"Woman",1,"White",7
+"psychobiology undergrad 1st year","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Middle Eastern or North African",5
+"psychology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Often",4,8.0,7.0,"3","No",1,"Neutral",3,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Psychobiology","ls","Life Sciences",1,"Often",4,9.0,8.0,"2","No",1,"Neutral",3,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Often",4,7.0,6.0,"4","Yes",2,"Neutral",3,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"psychobiology","ls","Life Sciences",1,"Never",1,9.0,8.0,"1","No",1,"Somewhat well",4,"Very confident",5,"Neutral",3,"Made it much easier",5,"Man",2,"Asian",2
+"Economics & Cognitive Science","humanities","Humanities",3,"Often",4,7.0,6.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"environmental science","ls","Life Sciences",1,"Never",1,8.0,7.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Always",5,4.0,3.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Never",1,10.0,9.0,"4","No",1,"Neutral",3,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Philosophy","humanities","Humanities",3,"Not too often",2,9.0,8.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"1","No",1,"Very poorly",1,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"3","Yes",2,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Often",4,4.0,3.0,"4","Yes",2,"Somewhat poorly",2,"Neutral",3,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Middle Eastern or North African",5
+"Neuroscience","ls","Life Sciences",1,"Never",1,11.0,10.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made no difference",3,"Man",2,"Middle Eastern or North African",5
+"Asian Languages and Linguistics","humanities","Humanities",3,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Asian",2
+"psychology ","ls","Life Sciences",1,"Often",4,7.0,6.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat easier",4,"Man",2,"Middle Eastern or North African",5
+"Psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"1","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"psychology","ls","Life Sciences",1,"Often",4,5.0,4.0,"1","Yes",2,"Somewhat well",4,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"World Arts & Cultures","humanities","Humanities",3,"Somewhat often",3,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"psychology","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"3","Yes",2,"Somewhat well",4,"Neutral",3,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,2.0,1.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made no difference",3,"Woman",1,"Asian",2
+"Neuroscience","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,11.0,10.0,"2","No",1,"Neutral",3,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Middle Eastern or North African",5
+"Cognitive Science ","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,11.0,10.0,"4","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Middle Eastern or North African",5
+"Public Affairs and Psychology","humanities","Humanities",3,"Often",4,7.0,6.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Middle Eastern or North African",5
+"Psychology ","ls","Life Sciences",1,"Never",1,3.0,2.0,"4","Yes",2,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"biology","ls","Life Sciences",1,"Never",1,3.0,2.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it much harder",1,"Man",2,"Black or African American",3
+"Economics and Cognitive Science","humanities","Humanities",3,"Somewhat often",3,9.0,8.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"Molecular Biology","ls","Life Sciences",1,"Never",1,9.0,8.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psycho-Biology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"3","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Often",4,11.0,10.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Neuroscience","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","Yes",2,"Somewhat well",4,"Neutral",3,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Cognitive Science, International Development Studies","humanities","Humanities",3,"Often",4,10.0,9.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Political Science","humanities","Humanities",3,"Not too often",2,4.0,3.0,"1","No",1,"Neutral",3,"Very unconfident",1,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Computer Science ","physical/cs","Engineering/Physical Sciences",2,"Always",5,6.0,5.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Never",1,7.0,6.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Undeclared ","other","Humanities",3,"Often",4,3.0,2.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"Biochemistry ","ls","Life Sciences",1,"Somewhat often",3,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made it much easier",5,"Woman",1,"Black or African American",3
+"Math and CS","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Communication","humanities","Humanities",3,"Not too often",2,6.0,5.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Biology","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"3","No",1,"Neutral",3,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"2","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"White",7
+"psychobio","ls","Life Sciences",1,"Often",4,3.0,2.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Communication","humanities","Humanities",3,"Not too often",2,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"4","Yes",2,"Neutral",3,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Often",4,5.0,4.0,"1","No",1,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Business Economics","humanities","Humanities",3,"Never",1,7.0,6.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Never",1,9.0,8.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Black or African American",3
+"Cognitive Science","ls","Life Sciences",1,"Never",1,3.0,2.0,"3","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"CogSci","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"3","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"2","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"English and Psychology","humanities","Humanities",3,"Not too often",2,10.0,9.0,"4","Yes",2,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Not too often",2,3.0,2.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,11.0,10.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"cognitive science","ls","Life Sciences",1,"Often",4,9.0,8.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Never",1,7.0,6.0,"1","No",1,"Neutral",3,"Neutral",3,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Asian",2
+"Physiological Sciences","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"2","No",1,"Neutral",3,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Public Health","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Ling & Psych ","ls","Life Sciences",1,"Often",4,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Often",4,6.0,5.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Man",2,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Man",2,"Middle Eastern or North African",5
+"Theater","humanities","Humanities",3,"Somewhat often",3,8.0,7.0,"2","No",1,"Somewhat poorly",2,"Somewhat confident",4,"Not too distracting",2,"Made it much easier",5,"Man",2,"Asian",2
+"Biology","ls","Life Sciences",1,"Never",1,9.0,8.0,"3","No",1,"Very well",5,"Somewhat confident",4,"Not too distracting",2,"Made no difference",3,"Woman",1,"Black or African American",3
+"Psychology","ls","Life Sciences",1,"Often",4,6.0,5.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Never",1,4.0,3.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Linguistics","humanities","Humanities",3,"Not too often",2,4.0,3.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Not too distracting",2,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"cognitive science","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"1","No",1,"Neutral",3,"Somewhat confident",4,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology ","ls","Life Sciences",1,"Often",4,8.0,7.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"White",7
+"psychobiology","ls","Life Sciences",1,"Often",4,10.0,9.0,"4","No",1,"Neutral",3,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Linguistics and Psychology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"2","No",1,"Neutral",3,"Neutral",3,"Neutral",3,"Made no difference",3,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"2","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Middle Eastern or North African",5
+"Cognitive Science","ls","Life Sciences",1,"Never",1,9.0,8.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Communication","humanities","Humanities",3,"Somewhat often",3,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Man",2,"White",7
+"Computer Science and Linguistics","physical/cs","Engineering/Physical Sciences",2,"Often",4,5.0,4.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Never",1,5.0,4.0,"3","Yes",2,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"sociology","humanities","Humanities",3,"Not too often",2,8.0,7.0,"1","No",1,"Neutral",3,"Neutral",3,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"pre-cognitive science ","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"3","No",1,"Neutral",3,"Neutral",3,"Neutral",3,"Made no difference",3,"Man",2,"White",7
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,10.0,9.0,"4","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made it much easier",5,"Woman",1,"White",7
+"neuroscience","ls","Life Sciences",1,"Somewhat often",3,4.0,3.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat easier",4,"Man",2,"Asian",2
+"anthropology and linguistics","ls","Life Sciences",1,"Never",1,7.0,6.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Business Econ","humanities","Humanities",3,"Somewhat often",3,7.0,6.0,"3","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"cognitvie science ","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Not too distracting",2,"Made it much easier",5,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Often",4,5.0,4.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Often",4,5.0,4.0,"2","No",1,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Psychobiology","ls","Life Sciences",1,"Never",1,4.0,3.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Psychology, Philosophy","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Not too often",2,3.0,2.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Pre-Psychology.","ls","Life Sciences",1,"Often",4,6.0,5.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it much harder",1,"Woman",1,"White",7
+"Cognitive Science and Music Industry","humanities","Humanities",3,"Often",4,3.0,2.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Business Economics","humanities","Humanities",3,"Somewhat often",3,3.0,2.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Never",1,8.0,7.0,"1","No",1,"Very well",5,"Very confident",5,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,10.0,9.0,"1","No",1,"Very well",5,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychobiology ","ls","Life Sciences",1,"Always",5,7.0,6.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"biology","ls","Life Sciences",1,"Never",1,6.0,5.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Cognitive Science ","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Cognitive Science and Statistics & Data Science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,10.0,9.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"linguistics","humanities","Humanities",3,"Never",1,8.0,7.0,"2","No",1,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Black or African American",3
+"Biology ","ls","Life Sciences",1,"Somewhat often",3,11.0,10.0,"4","Yes",2,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat harder",2,"Man",2,"Hispanic or Latino",4
+"Dance","humanities","Humanities",3,"Somewhat often",3,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Dance","humanities","Humanities",3,"Never",1,4.0,3.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Black or African American",3
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Often",4,2.0,1.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,11.0,10.0,"4","No",1,"Very well",5,"Very confident",5,"Neutral",3,"Made it much easier",5,"Man",2,"Asian",2
+"Linguistics","humanities","Humanities",3,"Never",1,11.0,10.0,"2","No",1,"Very well",5,"Very confident",5,"Not too distracting",2,"Made no difference",3,"Man",2,"Asian",2
+"psychology","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"2","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychology ","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychobiology","ls","Life Sciences",1,"Always",5,4.0,3.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Man",2,"Hispanic or Latino",4
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"4","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Molecular cell and developmental biology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"1","No",1,"Very poorly",1,"Somewhat unconfident",2,"Not at all distracting",1,"Made it much easier",5,"Woman",1,"Hispanic or Latino",4
+"Cog Sci","ls","Life Sciences",1,"Often",4,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"cognitive science","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"1","No",1,"Very well",5,"Somewhat confident",4,"Not at all distracting",1,"Made it somewhat easier",4,"Man",2,"Black or African American",3
+"joint economics and mathematics","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Computer Science","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,7.0,6.0,"3","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Asian",2
+"psychology","ls","Life Sciences",1,"Often",4,4.0,3.0,"2","Yes",2,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"psychobio","ls","Life Sciences",1,"Never",1,4.0,3.0,"4","No",1,"Neutral",3,"Neutral",3,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Never",1,5.0,4.0,"3","Yes",2,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"1","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"1","Yes",2,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"White",7
+"Disability Studies Major","ls","Life Sciences",1,"Somewhat often",3,5.0,4.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology ","ls","Life Sciences",1,"Never",1,9.0,8.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"Middle Eastern or North African",5
+"biochemistry, predental","ls","Life Sciences",1,"Often",4,5.0,4.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,5.0,4.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"White",7
+"Economics and Cognitive Science","humanities","Humanities",3,"Never",1,8.0,7.0,"2","No",1,"Somewhat poorly",2,"Neutral",3,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Sociology","humanities","Humanities",3,"Somewhat often",3,3.0,2.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Linguistics and Psychology","ls","Life Sciences",1,"Never",1,2.0,1.0,"2","Yes",2,"Very poorly",1,"Very unconfident",1,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Middle Eastern or North African",5
+"Cognitive Science and Global Studies","humanities","Humanities",3,"Never",1,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"cognitive science","ls","Life Sciences",1,"Never",1,6.0,5.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Anthropology ","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Biochemistry","ls","Life Sciences",1,"Somewhat often",3,11.0,10.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Computer Science","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,6.0,5.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made no difference",3,"Man",2,"Asian",2
+"Education and Social Transformation","humanities","Humanities",3,"Never",1,7.0,6.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Computer Engineering","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made no difference",3,"Man",2,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Often",4,10.0,9.0,"4","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,11.0,10.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Often",4,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Cognitive Science ","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Often",4,11.0,10.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Cognitive science","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Middle Eastern or North African",5
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Middle Eastern or North African",5
+"Design Media Arts","humanities","Humanities",3,"Not too often",2,10.0,9.0,"4","No",1,"Neutral",3,"Somewhat confident",4,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Asian",2
+"Computer Science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat well",4,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Black or African American",3
+"undeclared","other","Humanities",3,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat well",4,"Neutral",3,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Political Science & Psychology","humanities","Humanities",3,"Not too often",2,10.0,9.0,"2","No",1,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made it somewhat easier",4,"Man",2,"Middle Eastern or North African",5
+"Psychology","ls","Life Sciences",1,"Always",5,9.0,8.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"1","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made no difference",3,"Woman",1,"Black or African American",3
+"psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"1","No",1,"Neutral",3,"Somewhat confident",4,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"psychobiology","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Man",2,"Hispanic or Latino",4
+"Math for Teaching; Psychology","humanities","Humanities",3,"Always",5,6.0,5.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Asian",2
+"psychobiology","ls","Life Sciences",1,"Never",1,6.0,5.0,"2","No",1,"Neutral",3,"Neutral",3,"Not at all distracting",1,"Made it much easier",5,"Woman",1,"White",7
+"business economics","humanities","Humanities",3,"Somewhat often",3,11.0,10.0,"2","No",1,"Very well",5,"Very confident",5,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Asian",2
+"Computer Science","physical/cs","Engineering/Physical Sciences",2,"Often",4,8.0,7.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Hispanic or Latino",4
+"CS","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,11.0,10.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made no difference",3,"Man",2,"Asian",2
+"Nursing Prelicensure/Generic","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat harder",2,"Man",2,"Hispanic or Latino",4
+"Linguistic and Philosophy","humanities","Humanities",3,"Not too often",2,11.0,10.0,"4","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"1","Yes",2,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Black or African American",3
+"Psychology","ls","Life Sciences",1,"Never",1,4.0,3.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Cognitive Science","ls","Life Sciences",1,"Never",1,7.0,6.0,"2","Yes",2,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"biology ","ls","Life Sciences",1,"Never",1,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Neutral",3,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Neutral",3,"Neutral",3,"Made no difference",3,"Woman",1,"White",7
+"Psychobiology ","ls","Life Sciences",1,"Often",4,4.0,3.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Not at all distracting",1,"Made no difference",3,"Man",2,"Asian",2
+"Biochem","ls","Life Sciences",1,"Never",1,5.0,4.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Business economics","humanities","Humanities",3,"Somewhat often",3,11.0,10.0,"2","No",1,"Very well",5,"Very confident",5,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,6.0,5.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"Biology","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Hispanic or Latino",4
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat harder",2,"Man",2,"Asian",2
+"psychobiology","ls","Life Sciences",1,"Never",1,11.0,10.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Often",4,9.0,8.0,"4","No",1,"Somewhat poorly",2,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Not at all distracting",1,"Made it much harder",1,"Man",2,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Often",4,5.0,4.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Physiological Science","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"3","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Not too often",2,2.0,1.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,8.0,7.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Asian",2
+"psychology, political science, and public affairs","humanities","Humanities",3,"Often",4,4.0,3.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"CS","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,6.0,5.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Often",4,9.0,8.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"1","No",1,"Very well",5,"Very confident",5,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Somewhat often",3,3.0,2.0,"3","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Comp Sci and Ling","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,9.0,8.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Man",2,"Asian",2
+"cognitive science","ls","Life Sciences",1,"Often",4,7.0,6.0,"3","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,11.0,10.0,"2","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,11.0,10.0,"4","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Neuroscience","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"4","No",1,"Somewhat poorly",2,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,3.0,2.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Middle Eastern or North African",5
+"Mathematics of Computation","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,9.0,8.0,"1","Yes",2,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Psychobiology ","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"1","No",1,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"PsychoBiology","ls","Life Sciences",1,"Not too often",2,4.0,3.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Political Science, Linguistics","humanities","Humanities",3,"Never",1,10.0,9.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Undeclared","other","Humanities",3,"Often",4,4.0,3.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Native Hawaiian or Pacific Islander",
+"Pre-Business Economics ","humanities","Humanities",3,"Often",4,11.0,10.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Public affairs and Cognitive Science","humanities","Humanities",3,"Never",1,4.0,3.0,"4","No",1,"Very poorly",1,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Often",4,4.0,3.0,"1","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"ling and cs","physical/cs","Engineering/Physical Sciences",2,"Always",5,11.0,10.0,"2","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Cognitive Science and Global Studies","humanities","Humanities",3,"Not too often",2,10.0,9.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"1","No",1,"Somewhat well",4,"Neutral",3,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Linguistics & Psychology","ls","Life Sciences",1,"Somewhat often",3,3.0,2.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Pre-Psychology","ls","Life Sciences",1,"Often",4,5.0,4.0,"4","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Often",4,5.0,4.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,10.0,9.0,"2","No",1,"Somewhat well",4,"Neutral",3,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Cognitive Science ","ls","Life Sciences",1,"Often",4,5.0,4.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"linguistics and psychology","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Often",4,5.0,4.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"Linguistics and Computer Science, Cognitive Science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made no difference",3,"Woman",1,"Asian",2
+"Math","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,6.0,5.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Man",2,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"Linguistics","humanities","Humanities",3,"Never",1,9.0,8.0,"3","Yes",2,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"White",7
+"sociology","humanities","Humanities",3,"Not too often",2,8.0,7.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Applied Math","physical/cs","Engineering/Physical Sciences",2,"Often",4,4.0,3.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Middle Eastern or North African",5
+"Linguistics and Psychology ","ls","Life Sciences",1,"Always",5,9.0,8.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it much easier",5,"Woman",1,"Hispanic or Latino",4
+"Linguistics and Psychology","ls","Life Sciences",1,"Not too often",2,3.0,2.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Psychology ","ls","Life Sciences",1,"Somewhat often",3,5.0,4.0,"2","No",1,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Environmental Science ","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Applied Linguistics","humanities","Humanities",3,"Never",1,7.0,6.0,"2","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it much easier",5,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not at all distracting",1,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Political Science","humanities","Humanities",3,"Somewhat often",3,4.0,3.0,"4","Yes",2,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"psychobiology","ls","Life Sciences",1,"Often",4,10.0,9.0,"1","No",1,"Somewhat poorly",2,"Neutral",3,"Neutral",3,"Made it much easier",5,"Man",2,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,10.0,9.0,"2","No",1,"Very well",5,"Somewhat confident",4,"Not too distracting",2,"Made it much easier",5,"Woman",1,"Middle Eastern or North African",5
+"bio","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"CS","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,11.0,10.0,"4","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"bio","ls","Life Sciences",1,"Somewhat often",3,11.0,10.0,"2","No",1,"Somewhat well",4,"Neutral",3,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,3.0,2.0,"2","Yes",2,"Very poorly",1,"Very unconfident",1,"Not too distracting",2,"Made no difference",3,"Woman",1,"White",7
+"Communication and Spanish","humanities","Humanities",3,"Not too often",2,2.0,1.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"White",7
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"3","No",1,"Neutral",3,"Somewhat confident",4,"Very distracting",5,"Made it somewhat easier",4,"Man",2,"White",7
+"psychobio","ls","Life Sciences",1,"Often",4,6.0,5.0,"4","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"cognitive science","ls","Life Sciences",1,"Often",4,9.0,8.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Cognitive Science ","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Physiological Science","ls","Life Sciences",1,"Never",1,3.0,2.0,"3","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Man",2,"Asian",2
+"Biochemistry","ls","Life Sciences",1,"Somewhat often",3,5.0,4.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Psychobiology ","ls","Life Sciences",1,"Always",5,6.0,5.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"3","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Asian",2
+"Psychology ","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"2","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it much easier",5,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"White",7
+"English and Psychology","humanities","Humanities",3,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Never",1,8.0,7.0,"4","Yes",2,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"White",7
+"Chemistry","physical/cs","Engineering/Physical Sciences",2,"Often",4,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Black or African American",3
+"Psychology","ls","Life Sciences",1,"Often",4,7.0,6.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Black or African American",3
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"2","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Hispanic or Latino",4
+"Psychology, Disability Studies","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"3","No",1,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made it somewhat easier",4,"Man",2,"Asian",2
+"psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Never",1,7.0,6.0,"2","No",1,"Neutral",3,"Neutral",3,"Not too distracting",2,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Atmospheric and Oceanic Sciences","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,9.0,8.0,"4","Yes",2,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat easier",4,"Man",2,"White",7
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,11.0,10.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Man",2,"White",7
+"data theory","physical/cs","Engineering/Physical Sciences",2,"Never",1,11.0,10.0,"3","No",1,"Somewhat poorly",2,"Neutral",3,"Not at all distracting",1,"Made it much easier",5,"Woman",1,"Asian",2
+"Economics & Cognitive Science","humanities","Humanities",3,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Asian",2
+"Cognitive Science","ls","Life Sciences",1,"Not too often",2,9.0,8.0,"1","No",1,"Somewhat well",4,"Neutral",3,"Not too distracting",2,"Made no difference",3,"Woman",1,"Black or African American",3
+"Psychology + Biology","ls","Life Sciences",1,"Not too often",2,11.0,10.0,"1","No",1,"Somewhat poorly",2,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Math","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,11.0,10.0,"2","No",1,"Neutral",3,"Somewhat confident",4,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology and Political Science","humanities","Humanities",3,"Not too often",2,7.0,6.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Linguistics","humanities","Humanities",3,"Always",5,10.0,9.0,"4","No",1,"Somewhat poorly",2,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Native Hawaiian or Pacific Islander",
+"Psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Applied Linguistics ","humanities","Humanities",3,"Not too often",2,10.0,9.0,"3","No",1,"Very well",5,"Very confident",5,"Somewhat distracting",4,"Made it somewhat easier",4,"Man",2,"Black or African American",3
+"Physiological Sciences","ls","Life Sciences",1,"Often",4,9.0,8.0,"3","No",1,"Somewhat well",4,"Neutral",3,"Somewhat distracting",4,"Made it somewhat easier",4,"Man",2,"Hispanic or Latino",4
+"Philosophy","humanities","Humanities",3,"Somewhat often",3,10.0,9.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Never",1,9.0,8.0,"3","No",1,"Somewhat well",4,"Very confident",5,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"White",7
+"psych","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Black or African American",3
+"physiology","ls","Life Sciences",1,"Not too often",2,5.0,4.0,"4","No",1,"Somewhat well",4,"Neutral",3,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Often",4,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Hispanic or Latino",4
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"4","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"White",7
+"Chemistry","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,10.0,9.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not at all distracting",1,"Made no difference",3,"Man",2,"Asian",2
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Often",4,3.0,2.0,"2","No",1,"Somewhat poorly",2,"Very unconfident",1,"Not too distracting",2,"Made it much easier",5,"Woman",1,"Asian",2
+"Linguistics and Psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"1","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Linguistics and Psychology","ls","Life Sciences",1,"Never",1,3.0,2.0,"1","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Man",2,"Asian",2
+"Neuroscience","ls","Life Sciences",1,"Often",4,6.0,5.0,"1","No",1,"Very poorly",1,"Very unconfident",1,"Not too distracting",2,"Made no difference",3,"Man",2,"Hispanic or Latino",4
+"Cognitive Science","ls","Life Sciences",1,"Often",4,9.0,8.0,"3","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Often",4,8.0,7.0,"2","Yes",2,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Man",2,"Asian",2
+"Spanish Linguistics","humanities","Humanities",3,"Somewhat often",3,9.0,8.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat easier",4,"Man",2,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Often",4,11.0,10.0,"1","No",1,"Somewhat well",4,"Very confident",5,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Computer science and linguistics ","physical/cs","Engineering/Physical Sciences",2,"Often",4,11.0,10.0,"3","No",1,"Very well",5,"Very confident",5,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"White",7
+"psychobiology and sociology","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Middle Eastern or North African",5
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"1","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Often",4,6.0,5.0,"2","Yes",2,"Very poorly",1,"Very unconfident",1,"Not at all distracting",1,"Made it somewhat easier",4,"Non-binary",3,"Hispanic or Latino",4
+"International Development Studies & Applied Math","physical/cs","Engineering/Physical Sciences",2,"Often",4,9.0,8.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"Psychology","ls","Life Sciences",1,"Often",4,6.0,5.0,"4","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Non-binary",3,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,5.0,4.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"3","No",1,"Very well",5,"Very confident",5,"Neutral",3,"Made no difference",3,"Woman",1,"Asian",2
+"psych","ls","Life Sciences",1,"Often",4,5.0,4.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Not at all distracting",1,"Made it somewhat easier",4,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Never",1,9.0,8.0,"1","No",1,"Very well",5,"Very confident",5,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Very distracting",5,"Made it somewhat harder",2,"Woman",1,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Neutral",3,"Made it somewhat harder",2,"Woman",1,"White",7
+"Cognitive Science","ls","Life Sciences",1,"Never",1,8.0,7.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Man",2,"White",7
+"Mechanical Engineering","physical/cs","Engineering/Physical Sciences",2,"Somewhat often",3,8.0,7.0,"1","No",1,"Somewhat well",4,"Somewhat confident",4,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,9.0,8.0,"2","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Psychology","ls","Life Sciences",1,"Not too often",2,7.0,6.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Not too often",2,6.0,5.0,"4","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Often",4,6.0,5.0,"4","Yes",2,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it somewhat harder",2,"Non-binary",3,"Hispanic or Latino",4
+"Climate Science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,10.0,9.0,"4","No",1,"Neutral",3,"Neutral",3,"Somewhat distracting",4,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Often",4,7.0,6.0,"2","No",1,"Very poorly",1,"Very unconfident",1,"Not too distracting",2,"Made it somewhat easier",4,"Woman",1,"Hispanic or Latino",4
+"Psychology","ls","Life Sciences",1,"Not too often",2,2.0,1.0,"4","No",1,"Somewhat poorly",2,"Very unconfident",1,"Not too distracting",2,"Made no difference",3,"Woman",1,"Hispanic or Latino",4
+"psychology and political science","humanities","Humanities",3,"Not too often",2,9.0,8.0,"2","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat easier",4,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Not too often",2,11.0,10.0,"1","No",1,"Somewhat poorly",2,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat easier",4,"Man",2,"Asian",2
+"ling and psych","ls","Life Sciences",1,"Never",1,7.0,6.0,"3","No",1,"Somewhat poorly",2,"Very unconfident",1,"Neutral",3,"Made no difference",3,"Woman",1,"Black or African American",3
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,6.0,5.0,"4","No",1,"Neutral",3,"Somewhat unconfident",2,"Not too distracting",2,"Made no difference",3,"Woman",1,"Asian",2
+"statistics and data science","physical/cs","Engineering/Physical Sciences",2,"Not too often",2,9.0,8.0,"4","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made it somewhat harder",2,"Woman",1,"Black or African American",3
+"Linguistics and Computer Science","physical/cs","Engineering/Physical Sciences",2,"Never",1,6.0,5.0,"4","No",1,"Very poorly",1,"Very unconfident",1,"Very distracting",5,"Made it much harder",1,"Woman",1,"Hispanic or Latino",4
+"psychology","ls","Life Sciences",1,"Not too often",2,10.0,9.0,"3","No",1,"Somewhat well",4,"Somewhat confident",4,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"White",7
+"Psychology","ls","Life Sciences",1,"Somewhat often",3,1.0,0.0,"3","No",1,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Man",2,"Middle Eastern or North African",5
+"Psychology","ls","Life Sciences",1,"Not too often",2,8.0,7.0,"2","No",1,"Neutral",3,"Somewhat unconfident",2,"Neutral",3,"Made it somewhat harder",2,"Man",2,"Asian",2
+"Psychobiology","ls","Life Sciences",1,"Somewhat often",3,7.0,6.0,"4","Yes",2,"Somewhat poorly",2,"Somewhat unconfident",2,"Somewhat distracting",4,"Made no difference",3,"Woman",1,"Asian",2
